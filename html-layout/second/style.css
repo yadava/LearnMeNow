@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+#left {
+    height: 100%;
+    width: 33.3%;
+    background-color: blue;
+    float: left;
+
+}
+
+#middle {
+    height: 100%;
+    width:33.4%;
+    background-color: red;
+    float: left;
+
+}
+
+#right {
+    height: 100%;
+    width:33.3%;
+    background-color: yellow;
+   float: left;
+}
+
+#place {
+    height: 200px;
+    width: 33.3%;
+    background-color: purple;
+    position: absolute;
+    right: 0px;
+    bottom: 0px; 
+
+}
+
+h2 {
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+

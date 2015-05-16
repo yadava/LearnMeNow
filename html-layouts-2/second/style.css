@@ -1,0 +1,104 @@
+/* basic template */
+
+
+/* Reveal 
+
+* {
+   border: 1px solid red !important;
+}
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+html,body{
+
+  background-color: gray;
+  position: relative;
+}
+
+
+.top {
+  display: block;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 20px;
+}
+
+.red-button {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 20px;
+  background-color: red;
+  height: 3em;
+  width: 6em;
+  text-align: center;
+  line-height: 3em; /* line-height = height will force vertical align of a single line of text */
+}
+
+.blue-button {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: blue;
+  height: 3em;
+  width: 6em;
+  text-align: center;
+  line-height: 3em;
+}
+
+.clicky {
+  font-style: bold;
+  font-family: "Verdana";
+  color: white;
+}
+
+.mid {
+  display: block;
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  padding: 20px;
+
+}
+
+.insert {
+  background-color: gray;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 250px;
+  width: 500px;
+  line-height: 250px;
+}
+
+.mid-text {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.footer { /* I still need to figure a way to get the footer to stick to the bottom but not be fixed */
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  background-color: black;
+  text-align: center;
+}
+
+.footer-text {
+  color: white;
+  text-align: right;
+  word-spacing: 30px;
+  margin-right: 40px;
+}
+
+

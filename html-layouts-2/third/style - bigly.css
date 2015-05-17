@@ -1,0 +1,72 @@
+/* basic template */
+
+
+/* magic
+
+* {
+   border: 1px solid red !important;
+}
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+html,body{
+    height: 100%;
+}
+
+.header {
+  display: block;
+  background-color: black;
+  padding: 15px;
+  height: 1em;
+  line-height: 1em;
+}
+
+.header_text {
+  color: white;
+  text-align: left;
+  word-spacing: 30px;
+  margin-left: 20px;
+}
+
+.bigly{               /* the column divs go inside the larger div */
+  padding: 30px;
+  display: flex;
+}
+
+.mid {
+	float: left;
+	width: 500px;
+	margin: 30px;
+
+}
+
+.right-column {
+	float: left;   /* float both left - makes resizing look nicer */
+	width: 500px;
+	margin: 30px; 
+
+}
+
+.image {
+	height: 300px;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+	background: gray;
+}
+
+
+.footer { 		
+  clear: both;          /* don't need position fixed (unless desired). Will now always be at bottom (requires scrolling) */
+  background-color: black;
+  height: 2em;
+}
+
+

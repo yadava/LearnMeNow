@@ -1,0 +1,75 @@
+/* basic template */
+
+
+/* magic
+
+* {
+   border: 1px solid red !important;
+}
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+html,body{
+    height: 100%;
+}
+
+.header {
+  display: block;
+  background-color: black;
+  padding: 15px;
+  height: 1em;
+  line-height: 1em;
+}
+
+.header_text {
+  color: white;
+  text-align: left;
+  word-spacing: 30px;
+  margin-left: 20px;
+}
+
+.mid {
+	float: left;
+	width: 500px;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+
+}
+
+.right-column {
+	float: right;
+	width: 500px;
+	margin-top: 30px;
+	margin-right: 20px;
+	margin-bottom: 20px; 
+
+}
+
+.image {
+	height: 300px;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+	background: gray;
+}
+
+
+.footer { 		
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  background-color: black;
+  height: 2em;
+}
+
+

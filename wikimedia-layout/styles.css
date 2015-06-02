@@ -1,0 +1,112 @@
+
+/* basic template */
+
+
+/*
+
+* {
+   border: 1px solid red !important;
+}
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+html,body{
+    height: 100%;
+}
+
+
+
+
+.bigly{               /* the column divs go inside the larger div */
+  padding: 30px;
+  display: flex;
+}
+
+.Text {
+  font-family: "Arial";
+  font-size: 19px;
+  margin-top: 5px;
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
+.TopText {
+  float: left;
+
+
+}
+
+.TopTextRight {
+  
+  float: right;
+  clear: both;
+  
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.box-set {
+  clear: both;
+
+}
+
+.box-first-row {
+	clear: both;
+}
+
+.box-second-row {
+	clear: both;
+}
+
+.box-third-row {
+	clear: both;
+}
+
+.box-fourth-row {
+	clear: both;
+}
+
+.box {
+  float: left;
+  margin: 1.858736059%;
+  width: 21%;
+
+  
+}
+
+
+
+.line-separator{ /* http://cre8tivenerd.com/2011/01/create-a-line-separator-using-only-css/ */
+	clear: both;
+	height:1.5px;
+	background:#717171;
+	width: 100%;
+
+}
+
+
+.footer {
+	margin-top: 10px;
+	float: center;
+	clear: both;
+	text-align: center;
+	font-size: 14px;
+}
+
+
+
+
+

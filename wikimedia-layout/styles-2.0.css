@@ -1,0 +1,107 @@
+
+/* basic template */
+
+
+/*
+
+* {
+   border: 1px solid red !important;
+}
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+.bigly{               /* the column divs go inside the larger div */
+  width: 90%;
+  margin: 45px;
+}
+
+
+
+.TopText {
+   font-family: "Arial";
+  font-size: 19px;
+  margin: auto;
+
+
+}
+
+.TopTextRight {
+  float: right;
+  font-family: "Arial";
+  font-size: 19px;
+  margin: auto;
+  
+  
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.box-set {
+  margin: 30px;
+
+}
+
+.box-first-row {
+  display: flex;
+	margin: 50px;
+  padding: 10px;
+
+}
+
+.box-second-row {
+  display: flex;
+	margin: 50px;
+  padding: 10px;
+
+}
+
+.box-third-row {
+  display: flex;
+	clear: both;
+}
+
+.box-fourth-row {
+  display: flex;
+	clear: both;
+}
+
+.box {
+  height: 140px;
+  width: 25%;
+  margin-left: 100px;
+
+
+  
+}
+
+
+
+
+
+
+.footer {
+	margin-top: 10px;
+	float: center;
+	clear: both;
+	text-align: center;
+	font-size: 14px;
+}
+
+
+
+
+
